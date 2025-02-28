@@ -41,3 +41,9 @@ nano salon.sh
 chmod +x salon.sh
 nano salon.sh
 chmod +x salon.sh
+git init
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/Geibu517/FCC_salondb.git
+git push -u origin main
+git add .
